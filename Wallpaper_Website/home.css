@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Poppins', 'Roboto', sans-serif;
+
+}
+
+#logo{
+    width: 0px;
+    height: 0px;
+}
+
+.logo{
+    .image {
+        width: auto; /* Set the width to 50% of its container */
+        height: 0px; /* Maintain the aspect ratio */
+      }
+      
+}
+#banner{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://cutewallpaper.org/21/wallpaper-gif-1920x1080/Gif-Background-Space-1920x1080-Backgrounds-For-Html-Gif-.gif);
+    top: 20px;
+    background-size:auto;
+    background-position: center;
+    height: 90vh;
+}
+
+.header h1{
+    text-align: left;
+    font-size: 2vh;
+  
+    padding-left: 500px;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.header h2{
+    text-align: center;
+    font-size: 28vh;
+    color: #bfd9fc;
+    opacity: 60%;
+    font-family: 'Poppins', sans-serif;
+}
+.header p{
+    text-align: left;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 100px;
+    color: rgb(0, 26, 49);
+    font-family: 'Poppins', sans-serif;
+}
+.bg{
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    width: 280px;
+    height: 35px;
+    left: 78%;
+    top: 54px;
+    background: #4189b3;
+    border-radius: 35px 35px 35px 35px;
+}
+.bg p{
+    color: #fff;
+    padding-top: 3.5px;
+}
+.search{
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    left: 78.3%;
+    top: -41.5px;
+    border-radius: 25px;
+    background: #fff;
+    transition: 0.5s;
+    box-shadow: 0 0 0 2.5px #1e6f9d;
+    cursor: pointer;
+    
+}
+.search.active{
+    width: 270.5px;
+}
+.search .icon
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.search .icon::before
+{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #4189b3;
+    border-radius: 50%;
+    transform: translate(-2px,-2px) rotate(315deg);
+    
+}
+.search .icon::after
+{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 7px;
+    background: #4189b3;
+    transform: translate(4.2px,4.2px) rotate(315deg);
+    
+}
+/***
+nav{
+    flex: 1;
+    text-align: right;
+    padding: 62px;
+    
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #76cdac;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
+}
+a:hover{
+    
+    width:inherit;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 0 2px;
+    background: #76cdac;
+    color: #fff;
+    position: relative;
+    transition: 0.5s;
+   
+}**/
+.banner-btn{
+    margin: 15px auto 0;
+    transition: 0.5s;
+    font-size: 13px;
+    padding-left: 90px;
+}
+.banner-btn a{
+    text-align: center;
+    width: 120px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 0;
+    border-radius: 30px;
+    background: #76cdac;
+    color: #fff;
+    border: 2px solid #76cdac;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+    
+}
+.banner-btn a:hover{
+    background: transparent;
+     border: 2px solid #fff;
+   
+}
+.search .input{
+    position: relative;
+    width: 220px;
+    height: 25px;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search .input input{
+    position: absolute;
+    top: 0;
+    left: 1px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    padding: 10px 0;
+}
+.clear{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    right: 10px;
+    background: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clear::before{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 10px;
+    background: #999;
+    transform: rotate(45deg);
+}
+.clear::after{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 10px;
+    background: #999;
+    transform: rotate(315deg);
+}
+
+.slider-container1{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url(https://thumbs.gfycat.com/DeliciousUnfortunateCockroach-size_restricted.gif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.msg-container1{
+   width: 495px;
+    height: 200px;
+    position: absolute;
+    left: 14%;
+    top: 37%;
+    transform: translateY(-50);
+    overflow: hidden;
+}
+
+#slider{
+    display: inline-flex;
+    transition: 0.5s;
+}
+.msg-col{
+    width: 495px;
+    height: 200px;
+}
+.msg-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.anime-list {
+    display: flex;
+    width: 100%;
+}
+
+.column {
+    flex: 1;
+    padding: 0 20px;
+}
+
+/* Optional: Adjust spacing and styling */
+.column li {
+    margin-bottom: 10px;
+}
+
+
+.msg-col h1{
+    color: #000000;
+    font-size: 60px;
+    font-weight: 100;
+    margin: 9px 0;
+
+}
+.msg-col p{
+    color: #000000;
+    font-size: 13px;
+    line-height: 25px;
+}
+.msg-col a{
+    display: inline-block;
+    text-decoration: none;
+    color: #555;
+    background: #fff;
+    font-size: 15px;
+    padding: 10px 35px;
+    border-radius: 30px;
+    margin-top: 25px;
+}
+#about{
+    width: 90%;
+    align-items: center;
+   padding: 150px 0;
+   position: relative;
+   transition: 0.4s;
+   text-align: center;
+   margin-left: 5%;
+}
+.controller{
+    width: 1px;
+    height: 200px;
+    display: block;
+    background: #c0c0c0;
+    position: absolute;
+    top: 55%;
+    right: 60px;
+    transform: translateY(-50%);
+    
+    
+}
+
+#line1,#line2,#line3,#line4{
+    height: 50px;
+    width: 10px;
+    cursor: pointer;
+    transform: translateX(-50%);
+    
+}
+#active{
+    width: 3px;
+    height: 40px;
+    border-radius: 10px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 770px){
+    .container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background%201.html);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+}
+
+
+.container{ 
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    font-weight: normal;
+    font-size: 35px;
+    position: relative; 
+    margin: 40px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
